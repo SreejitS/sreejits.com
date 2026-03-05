@@ -1,0 +1,56 @@
+baseURL: "https://sreejits.com/"
+title: "Sreejit S"
+languageCode: en-us
+theme: hugo-blog-awesome
+paginate: 10
+enableEmoji: false
+
+taxonomies:
+  tag: tags
+  series: series
+
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+    ordered: false
+
+menu:
+  main:
+    - pageRef: /
+      name: Home
+      url: /
+      weight: 10
+    - pageRef: posts
+      name: Posts
+      url: /posts/
+      weight: 20
+    - pageRef: about
+      name: About
+      url: /about/
+      weight: 30
+
+params:
+  sitename: "Sreejit S"
+  defaultColor: "auto"
+  description: "Hardware, firmware, and software."
+  mainSections: ['posts']
+  toc: true
+  tocOpen: false
+  goToTop: true
+  rssFeedDescription: "full"
+  additionalScripts: []
+  author:
+    intro: "Sreejit S"
+    name: "Sreejit S"
+    description: "Building things from gates to apps."
+  socialIcons:
+    - name: github
+      url: "https://github.com/SreejitS"
+    - name: Rss
+      url: "/index.xml"

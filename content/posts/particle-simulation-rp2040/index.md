@@ -57,7 +57,9 @@ The final firmware:
 - Runs a physics loop, constrained by the OLED’s refresh rate
 - Renders particles while reading accelerometer data to update forces.
 
-![Particle simulation on RP2040](particle-sim-embedded.gif)
+<video autoplay loop muted playsinline style="max-width:100%">
+  <source src="particle-sim-embedded.mp4" type="video/mp4">
+</video>
 
 ##### **Challenges & Learnings**
 
